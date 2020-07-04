@@ -35,7 +35,7 @@ namespace disctempbot
                 .AddSingleton(_commands)
                 .BuildServiceProvider();
 
-            string token = "NzAzOTY0MTcxMjQyMzA3NjM0.XqbdVQ.eEkTEB6B7UwdbM37MbhtCXlXjYc";
+            string token = "TOKEN-HERE";
 
             _client.Log += _client_Log;
 
