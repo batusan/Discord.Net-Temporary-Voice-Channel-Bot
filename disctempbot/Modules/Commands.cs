@@ -15,7 +15,7 @@ namespace disctempbot.Modules
         public async Task Ping()
         {
             ITextChannel logChannel = Context.Client.GetChannel(724944760258822215) as ITextChannel;
-            var message = await logChannel.SendMessageAsync(":weSmart:");
+            var message = await logChannel.SendMessageAsync("XD");
         }
 
         [Command("temizle")]
